@@ -4,5 +4,11 @@
 	},
 	"org.matrix.msc3575.proxy": {
 		"url": "https://matrix.throneless.tech"
-	}
+	},
+	"org.matrix.msc4143.rtc_foci":[
+      		{
+         		"type": "livekit",
+         		"livekit_service_url": "https://matrix-rtc.throneless.tech"
+      		}
+   	]
 }
