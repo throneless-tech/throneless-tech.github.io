@@ -63,9 +63,11 @@ em {
 code {
 	background-color: rgba(144,144,144,0.25);
 	border-radius: 0.25em;
-	font-family: 'Lucida Console', 'Courier New', monospace;
+	font-family: "Geist Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 0.9em;
-	font-weight: normal;
 	letter-spacing: 0;
 	margin: 0 0.25em;
 	padding: 0.25em 0.5em;
@@ -439,7 +441,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text01 {
 	text-transform: lowercase;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Funnel Display", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 	letter-spacing: -0.025rem;
 	width: 100%;
 	font-size: 2.5em;
@@ -461,7 +466,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 
 #text04 {
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -482,7 +490,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text10 {
 	text-transform: lowercase;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	letter-spacing: 0.2rem;
 	width: calc(100% + 0.2rem);
 	font-size: 1.5em;
@@ -505,7 +516,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text09 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -527,7 +541,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	text-align: left;
 	text-transform: lowercase;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	letter-spacing: 0.1rem;
 	width: calc(100% + 0.1rem);
 	font-size: 1.25em;
@@ -550,7 +567,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text12 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -571,7 +591,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text08 {
 	text-transform: lowercase;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	letter-spacing: 0.2rem;
 	width: calc(100% + 0.2rem);
 	font-size: 1.5em;
@@ -595,7 +618,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	text-align: left;
 	text-transform: lowercase;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	letter-spacing: 0.1rem;
 	width: calc(100% + 0.1rem);
 	font-size: 1.25em;
@@ -618,7 +644,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text15 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -639,7 +668,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text19 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -660,7 +692,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text06 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -681,7 +716,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text14 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -702,7 +740,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text05 {
 	text-transform: lowercase;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	letter-spacing: 0.2rem;
 	width: calc(100% + 0.2rem);
 	font-size: 1.5em;
@@ -725,7 +766,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text03 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -746,7 +790,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text16 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -767,7 +814,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text17 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -788,7 +838,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text18 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -809,7 +862,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text20 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -830,7 +886,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text02 {
 	text-align: left;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1em;
 	line-height: 1.625;
 	font-weight: 400;
@@ -851,7 +910,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #text07 {
 	text-transform: lowercase;
 	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	letter-spacing: 0.2rem;
 	width: calc(100% + 0.2rem);
 	font-size: 1.5em;
@@ -1374,7 +1436,10 @@ hr:before {
 	padding: 0 0.5rem;
 	vertical-align: middle;
 	text-transform: lowercase;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	letter-spacing: 0.1rem;
 	padding-left: calc(0.1rem + 0.5rem);
 	font-size: 0.875em;
