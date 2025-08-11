@@ -1457,8 +1457,8 @@ hr:before {
 }
 
 #buttons01 .button:hover {
-	border-color: #FF8CA8 !important;
-	color: #FF8CA8 !important;
+	border-color: #F8D843 !important;
+	color: #F8D843 !important;
 }
 
 @media (orientation: portrait) {
