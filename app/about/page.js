@@ -1,3 +1,5 @@
+// fonts
+import { funnel } from "@/app/fonts"
 
 // chakra ui imports
 import {
@@ -11,7 +13,7 @@ export default function About() {
   return (
     <Box>
       <Container>
-        <Heading as="h1">
+        <Heading as="h1" className={funnel.className}>
           About
         </Heading>
         <Heading as="h2">
