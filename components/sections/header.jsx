@@ -2,7 +2,6 @@
 
 // chakra ui imports
 import {
-  Box,
   Container,
   Heading,
   VisuallyHidden,
@@ -23,8 +22,12 @@ export default function Header() {
 
   return (
     <ClientOnly>
-      <Box>
-        <Flex direction="row" justify="space-between">
+      <Container paddingTop={12}>
+        <Flex
+          alignItems={["flex-end", "flex-end", "center"]}
+          direction={["column-reverse", "column-reverse", "row"]}
+          gap={[8, 6]}
+          justify={"space-between"}>
           <Heading as="h1" width={340}>
             <VisuallyHidden>
               Throneless Tech
@@ -33,7 +36,7 @@ export default function Header() {
           </Heading>
           <ColorModeButton />
         </Flex>
-      </Box>
+      </Container>
     </ClientOnly>
   )
 }

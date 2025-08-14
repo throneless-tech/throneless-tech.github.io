@@ -29,11 +29,15 @@ export default function Footer() {
 
   return (
     <ClientOnly>
-      <Container id="contact">
+      <Container id="contact" paddingBottom={12}>
         <Heading color={color}>
           Contact us
         </Heading>
-        <Flex direction={["column", "column", "row"]} justify="space-between" marginTop={8}>
+        <Flex
+          direction={["column", "column", "row"]}
+          gap={[8, 8, 4]}
+          justify="space-between"
+          marginTop={8}>
           <Flex direction={["column", "row"]} gap={4}>
             <Link color={color} href="mailto:team@throneless.tech">
               Email

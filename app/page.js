@@ -6,8 +6,8 @@ import { funnel } from "@/app/fonts"
 // chakra ui imports
 import {
   Box,
+  ClientOnly,
   Container,
-  Heading
 } from "@chakra-ui/react"
 
 import {
@@ -23,22 +23,22 @@ export default function Home() {
   const mode = useColorMode()
 
   return (
-    <Box
-      bgAttachment="fixed"
-      bgImage={mode.colorMode === "dark" ? "url('/assets/images/bg.png')" : ""}
-      bgPosition="center"
-      bgRepeat="no-repeat"
-      bgSize="cover"
-    >
-      <Container marginTop={12}>
+    <ClientOnly>
+      <Box
+        bgAttachment="fixed"
+        bgImage={mode?.colorMode === "dark" ? "url('/assets/images/bg.png')" : ""}
+        bgPosition="center"
+        bgRepeat="no-repeat"
+        bgSize="cover"
+      >
         <Header />
-      </Container>
-      <Container marginTop={12}>
-        <Hero />
-      </Container>
-      <Box marginY={20}>
-        <Footer />
-      </Box>
-    </Box >
+        <Container marginTop={12}>
+          <Hero />
+        </Container>
+        <Box marginTop={12}>
+          <Footer />
+        </Box>
+      </Box >
+    </ClientOnly>
   )
 }
