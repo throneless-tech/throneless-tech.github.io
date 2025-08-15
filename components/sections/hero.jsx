@@ -4,13 +4,11 @@
 import {
   Box,
   ClientOnly,
-  Container,
   Flex,
   Text,
 } from "@chakra-ui/react";
 
 import {
-  ColorModeButton,
   useColorModeValue,
 } from "@/components/ui/color-mode";
 
@@ -26,16 +24,22 @@ export default function Hero() {
   return (
     <ClientOnly>
       <Box>
-        <Flex direction={["column", "column", "row"]} gap={8} justify="space-between">
+        <Flex
+          direction={["column", "column", "row"]}
+          gap={24}
+          justify="flex-start"
+          maxW="breakpoint-xl"
+        >
           <Text
             className={funnel.className}
             color={textColor}
-            textStyle="6xl"
+            maxW={620}
+            textStyle="7xl"
             textTransform="uppercase"
           >
             Worker-owned tech for social justice
           </Text>
-          <Flex direction="column" gap={8}>
+          <Flex direction="column" gap={12}>
             <Text
               borderLeftColor="yellow.300"
               borderLeftStyle="solid"
