@@ -22,9 +22,9 @@ export default function Header() {
 
   return (
     <ClientOnly>
-      <Container paddingTop={12}>
+      <Container paddingTop={[6, 12, 12]}>
         <Flex
-          alignItems={["flex-end", "flex-end", "center"]}
+          alignItems={["flex-start", "flex-start", "center"]}
           direction={["column-reverse", "column-reverse", "row"]}
           gap={[8, 6]}
           justify={"space-between"}>

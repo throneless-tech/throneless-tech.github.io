@@ -34,7 +34,7 @@ export default function Hero() {
             className={funnel.className}
             color={textColor}
             maxW={620}
-            textStyle="7xl"
+            textStyle={["6xl", "7xl"]}
             textTransform="uppercase"
           >
             Worker-owned tech for social justice
