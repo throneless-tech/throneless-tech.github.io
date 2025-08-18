@@ -29,7 +29,7 @@ export default function Home() {
         <Box
           bgAttachment="fixed"
           bgImage={mode?.colorMode === "dark" ? "url('/assets/images/bg.png')" : ""}
-          bgPosition="center"
+          backgroundPosition="center"
           bgRepeat="no-repeat"
           bgSize="cover"
         >
