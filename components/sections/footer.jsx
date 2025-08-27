@@ -1,8 +1,5 @@
 "use client"
 
-// fonts
-import { geistMono } from "@/app/fonts";
-
 // chakra ui imports
 import {
   Box,

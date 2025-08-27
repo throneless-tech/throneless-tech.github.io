@@ -1,8 +1,5 @@
 "use client"
 
-// fonts
-import { funnel } from "@/app/fonts"
-
 // chakra ui imports
 import {
   Box,
