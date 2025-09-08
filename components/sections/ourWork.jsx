@@ -20,7 +20,7 @@ import { funnel, geist, geistMono } from "@/app/fonts";
 import { Heading } from "@/components/ui/heading";
 import { WorkCard } from "@/components/ui/workCard";
 
-export default function About() {
+export default function OurWork() {
   const textColor = useColorModeValue("black", "white");
 
   return (

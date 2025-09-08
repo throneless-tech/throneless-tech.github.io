@@ -25,10 +25,10 @@ export default function About() {
   return (
     <Flex
       color={textColor}
-      direction={["column", "column", "row"]}
-      gap={[12, 18, 40]}
+      direction={["column", "column", "column", "column", "row"]}
+      gap={[12, 20, 24]}
     >
-      <Box maxW={360}>
+      <Box maxW={["100%", "100%", "100%", "100%", 400]}>
         <Heading color={textColor}>
           Who we serve
         </Heading>

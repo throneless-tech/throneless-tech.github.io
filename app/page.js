@@ -17,6 +17,9 @@ import Footer from "@/components/sections/footer"
 import Header from "@/components/sections/header"
 import Hero from "@/components/sections/hero"
 import OurWork from "@/components/sections/ourWork";
+import Team from "@/components/sections/team";
+
+// background images
 import BgDark from "@/public/assets/images/bgDark";
 import BgLight from "@/public/assets/images/bgLight";
 
@@ -29,7 +32,7 @@ export default function Home() {
         <Box
           _after={{
             backgroundImage: [mode?.colorMode === "dark" ? "url('/assets/images/orb-dark-2.png')" : "url('/assets/images/orb-light-2.png')", mode?.colorMode === "dark" ? "url('/assets/images/orb-dark-2.png')" : "url('/assets/images/orb-light-2.png')", mode?.colorMode === "dark" ? "url('/assets/images/orb-dark-1.png')" : "url('/assets/images/orb-light-1.png')"],
-            backgroundPosition: ["top 26% right 10%", "top 26% right 10%", "top 40% right 0", "top 36% right 0", "top 40% right 0"],
+            backgroundPosition: ["top 11% right 10%", "top 12% right 10%", "top 18% right 0", "top 18% right 0", "top 22% right 0"],
             backgroundRepeat: "no-repeat",
             backgroundSize: ["20%", "20%", "50%", "50%", "40%"],
             bottom: 0,
@@ -62,15 +65,18 @@ export default function Home() {
             </Container>
           </Box>
           <Container paddingBottom={12}>
-            <Box marginTop={[30, 40, 160]}>
+            <Box marginTop={[62, 40, 160]}>
               <About />
             </Box>
-            <Box marginTop={[30, 40, 160]}>
+            <Box marginTop={[62, 24, 28]}>
               <OurWork />
+            </Box>
+            <Box marginTop={[62, 40, 28]}>
+              <Team />
             </Box>
           </Container>
         </Box>
-        <Box marginTop={24}>
+        <Box marginTop={[8, 12, 24]}>
           <Footer />
         </Box>
       </Box >
