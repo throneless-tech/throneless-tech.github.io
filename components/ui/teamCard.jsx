@@ -8,7 +8,7 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 import { Link } from "@/components/ui/link";
 
 export const TeamCard = ({name, info, about}) => (
-  <Flex flexDirection={["column", "column", "row"]} gap={[4, 4, 20]}>
+  <Flex alignItems="center" flexDirection={["column", "column", "row"]} gap={[4, 4, 20]}>
     <Box minWidth={[30, 360]}>
       <Text className={funnel.className} fontSize="3xl" textDecoration="underline">
         {name}
