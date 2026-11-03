@@ -88,6 +88,23 @@ export default function About() {
                 fontSize="2xl"
                 minWidth={360}
               >
+                Chatbot customization and support
+              </Text>
+              <Text>
+                We can tailor our platform Bitpart to your organization, helping you to securely communicate to your audience. The language and flow of a chatbot can be customized to meet your needs. For added information security, we can help you set up and/or maintain your own Bitpart server.
+              </Text>
+            </Flex>
+          </List.Item>
+          <List.Item marginTop={8}>
+            <Flex
+              direction={["column", "column", "column", "row"]}
+              gap={6}
+            >
+              <Text
+                className={funnel.className}
+                fontSize="2xl"
+                minWidth={360}
+              >
                 Advisory and support
               </Text>
               <Text>
